@@ -15,3 +15,9 @@ lvim.keys.normal_mode["Q"] = ":qa!<CR>"
 -- lvim.builtin.which_key.mappings["\["] = ":BufferLineCyclePrev<CR>"
 -- nmap <leader>[ :BufferLineCyclePrev<CR>
 -- nmap <leader>] :BufferLineCycleNext<CR>
+lvim.builtin.which_key.mappings["["] = {
+    "<cmd>BufferLineCycleNext<CR>", "Projects"
+}
+lvim.builtin.which_key.mappings["]"] = {
+    "<cmd>BufferLineCyclePrev<CR>", "Projects"
+}

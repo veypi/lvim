@@ -6,3 +6,6 @@
 require("plugins")
 require("options")
 require("maps")
+
+
+--  plugins cfg
