@@ -2,7 +2,12 @@ lvim.plugins = {
     {
         'aperezdc/vim-template',
         config = function()
-            vim.cmd("let g:templates_directory = '~/.config/lvim/templates'")
+        end,
+    },
+    {
+        "windwp/nvim-ts-autotag",
+        config = function()
+            require("nvim-ts-autotag").setup()
         end,
     },
 }

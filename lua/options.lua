@@ -3,10 +3,13 @@ lvim.format_on_save.enabled = true
 
 vim.g.user = "veypi"
 vim.g.email = "i@veypi.com"
+vim.g.templates_directory = '~/.config/lvim/templates'
 
 local options = {
-    fileencoding = "utf-8",                  -- the encoding written to a file
-    wrap = false,                            -- display lines as one long line
+    fileencoding = "utf-8", -- the encoding written to a file
+
+    textwidth = 70,
+    wrap = true,                             -- display lines as one long line
 
     showtabline = 1,                         -- always show tabs
     expandtab = true,                        -- convert tabs to spaces
