@@ -1,3 +1,5 @@
+lvim.builtin.telescope.defaults.file_ignore_patterns = { "public/deps/" }
+lvim.builtin.telescope.defaults.path_display = {}
 lvim.format_on_save.enabled = true
 
 

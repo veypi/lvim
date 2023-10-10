@@ -10,9 +10,12 @@
 lvim.keys.normal_mode["<F2>"] = ":NvimTreeToggle<CR>"
 lvim.keys.normal_mode["q"] = ":bd<CR>"
 lvim.keys.normal_mode["Q"] = ":qa!<CR>"
+lvim.keys.normal_mode["vs"] = ":split<CR>"
+lvim.keys.normal_mode["vv"] = ":vsplit<CR>"
 
 lvim.keys.normal_mode["\\["] = ":BufferLineCyclePrev<CR>"
 lvim.keys.normal_mode["\\]"] = ":BufferLineCycleNext<CR>"
+
 
 -- lvim.builtin.which_key.mappings["\["] = ":BufferLineCyclePrev<CR>"
 -- nmap <leader>[ :BufferLineCyclePrev<CR>

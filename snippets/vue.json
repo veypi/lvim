@@ -1,0 +1,9 @@
+{
+    "withDefaults": {
+        "prefix": "withDefaults",
+        "body": [
+            "let props = withDefaults(defineProps<{\n}>(),\n  {}\n)"
+        ],
+        "description": "withDefaults"
+    }
+}
